@@ -1,0 +1,12 @@
+﻿  Basic.cpp
+  main.cpp
+C:\Users\seanp\Documents\Github\3D-World\3D World\main.cpp(143,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\seanp\Documents\Github\3D-World\3D World\main.cpp(198,39): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\seanp\Documents\Github\3D-World\3D World\main.cpp(198,29): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\seanp\Documents\Github\3D-World\3D World\main.cpp(198,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  ObjLoader.cpp
+  Polyhedron.cpp
+C:\Users\seanp\Documents\Github\3D-World\3D World\Polyhedron.cpp(40,44): warning C4244: 'argument': conversion from 'unsigned __int64' to 'const double', possible loss of data
+C:\Users\seanp\Documents\Github\3D-World\3D World\Polyhedron.cpp(58,44): warning C4244: 'argument': conversion from 'unsigned __int64' to 'const double', possible loss of data
+  Generating Code...
+  3D World.vcxproj -> C:\Users\seanp\Documents\Github\3D-World\3D World\x64\Debug\3D World.exe
