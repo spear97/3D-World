@@ -82,6 +82,7 @@ void computeDir(float deltaAngle)
 //Render changes to the current Scene
 void renderScene(void)
 {
+
 	//If there is a Postional Change
 	if (deltaMove)
 	{
@@ -168,17 +169,21 @@ void keyboard(unsigned char key, int x, int y)
 //When a Key is pressed determine what needs to be done
 void pressKey(int key, int xx, int yy) 
 {
-	//On Up Key Pressed, move Camera forward
-	if ((key == GLUT_KEY_UP)) deltaMove = slowDown ? 0.005f : 0.05f;
-
-	//On Down Key Pressed, turn Camera backward
-	if ((key == GLUT_KEY_DOWN)) deltaMove = slowDown ? -0.005f : -0.05f;
-
-	//On Left Key Pressed, turn Camera to the left
-	if ((key == GLUT_KEY_LEFT)) deltaAngle = slowDown ? -0.0001f : -0.001f;
-
-	//On Right Key Pressed, turn Camera to the Right
-	if ((key == GLUT_KEY_RIGHT)) deltaAngle = slowDown ? 0.0001f : 0.001f;
+	switch (key)
+	{
+	case GLUT_KEY_UP:
+		deltaMove = slowDown ? 0.005f : 0.05f;
+		break;
+	case GLUT_KEY_DOWN:
+		deltaMove = slowDown ? -0.005f : -0.05f;
+		break;
+	case GLUT_KEY_LEFT:
+		deltaAngle = slowDown ? -0.0001f : -0.001f;
+		break;
+	case GLUT_KEY_RIGHT:
+		deltaAngle = slowDown ? 0.0001f : 0.001f;
+		break;
+	}
 }
 
 //When a Key is released determine what needs to be done

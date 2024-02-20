@@ -20,19 +20,19 @@ using namespace std;
 /*************Callback Functions*************/
 
 // Render changes to the current Scene
-void renderScene(void);							
+void renderScene(void);
 
 // Update the Size of the Window
-void changeSize(int w, int h);					
+void changeSize(int w, int h);
 
 // Determine actions when a key is pressed
-void keyboard(unsigned char key, int x, int y); 
+void keyboard(unsigned char key, int x, int y);
 
 // Determine actions when a key is pressed
-void pressKey(int key, int xx, int yy);         
+void pressKey(int key, int xx, int yy);
 
 // Determine actions when a key is released
-void releaseKey(int key, int x, int y);     
+void releaseKey(int key, int x, int y);
 
 /*************Menu Creation Functions*************/
 
@@ -48,7 +48,7 @@ void createMenu(void);
 void computePos(float deltaMove);
 
 // Compute Direction
-void computeDir(float deltaAngle);	
+void computeDir(float deltaAngle);
 
 /*************OpenGL Initializer*****************/
 void init();
@@ -64,7 +64,7 @@ void SlowDown();
 /*************3D Rendering Functions*************/
 
 // Initialize a Pyramid Already Loaded into the Environment
-void initPolyhedron();	
+void initPolyhedron();
 
 // Load a File from a given filename
 void loadFromFile(string filename, Vector3d center, double rot, Vector3d color);
@@ -85,11 +85,10 @@ void Env3(Vector3d color);
 /*************Variables for the application*************/
 
 // Camera variables
-vector<Polyhedron> polys;		    // Collection of polygons for a given object
-float angle = 0.0f;					// Angle of rotation for the camera direction
-float lx = 0.0f, lz = -1.0f;		// Actual vector representing the camera's direction
-float x = 0.0f, z = 5.0f;			// XZ position of the camera
-bool keyboardPressed = false;		// Is Keyboard pressed
+vector<Polyhedron> polys;					// Collection of polygons for a given object
+float angle = 0.0f;							// Angle of rotation for the camera direction
+float lx = 0.614692f, lz = -0.788767f;		// Actual vector representing the camera's direction
+float x = -26.8996f, z = 37.175f;			// XZ position of the camera
 
 // Scene and rendering menu variables
 float minBound = -100.f, maxBound = 100.f;								// The Bounds that the Ground Exist on
@@ -98,7 +97,7 @@ bool useDefault = true;													// Determine if Default should be rendered o
 bool alreadyGenerate = false;											// Determine if Objects have already been generated in the Scene or Not
 bool isSimulating = false;												// Determine if a Simulation is running
 bool slowDown = false;													// Determine if Camera needs to be slowed down
-float deltaAngle = 0.f, deltaMove=0.f;									// The key states. These variables will be zero when no key is being presses
+float deltaAngle = 0.f, deltaMove = 0.f;									// The key states. These variables will be zero when no key is being presses
 int Env_ID;																// The Identifier for the Environment that will need to be rendered
 
 // Lighting variables

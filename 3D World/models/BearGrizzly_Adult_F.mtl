@@ -1,0 +1,47 @@
+
+newmtl Material_1
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+d 1
+Ns 1
+map_Kd BearGrizzly_Adult_F.png
+
+newmtl Material_76
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+d 1
+Ns 1
+map_Kd BearGrizzly_Adult_F.png
+
+newmtl Material_156
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+d 1
+Ns 1
+map_Kd Animal_Teeth.png
+
+newmtl Material_166
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+d 1
+Ns 1
+map_Kd BearGrizzly_Adult_F.png
+
+newmtl Material_31b
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.9 0.9 0.9
+d 1
+Ns 1
+map_Kd Animal_Teeth.png
+
+newmtl Material_32e
+Ka 0.329412 0.27451 0.121569
+Kd 0.0784314 0.0666667 0.027451
+Ks 0.580392 0.521569 0.368627
+d 1
+Ns 100

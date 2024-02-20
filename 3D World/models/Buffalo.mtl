@@ -1,0 +1,24 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Material.0001ee
+Ns 5.000001
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.898039 0.898039 0.898039
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\seanp\\Downloads\\PC Computer - Zoo Tycoon 2 - African Buffalo Male\\male.png
+
+newmtl Material.002
+Ns 5.000001
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.898039 0.898039 0.898039
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\seanp\\Downloads\\PC Computer - Zoo Tycoon 2 - African Buffalo Male\\male.png

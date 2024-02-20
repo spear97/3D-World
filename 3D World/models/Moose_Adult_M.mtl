@@ -1,0 +1,35 @@
+# Blender 3.4.1 MTL File: 'None'
+# www.blender.org
+
+newmtl Moose_Adult_Antlers
+Ns 826.446228
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Moose_Adult_Antlers.png
+
+newmtl Moose_Adult_Beard
+Ns 826.446228
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd moose_beard.png
+
+newmtl Moose_Adult_M_MTL
+Ns 826.446228
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Moose_Adult_M.png

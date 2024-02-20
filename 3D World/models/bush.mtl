@@ -1,0 +1,14 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl MODELS_bin_028_poly000Material
+Ns 94.117644
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.250000 0.250000 0.250000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 9
+map_Kd C:\\Users\\seanp\\Downloads\\GameCube - Star Fox Adventures - Thorn Bush\\Thorn Bush\\MODELS.bin.028.000.png
+map_d C:\\Users\\seanp\\Downloads\\GameCube - Star Fox Adventures - Thorn Bush\\Thorn Bush\\MODELS.bin.028.000.png

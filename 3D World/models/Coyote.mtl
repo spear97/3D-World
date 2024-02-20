@@ -1,0 +1,16 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl Mt_Body
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump -bm 0.300000 C:\\Users\\seanp\\Downloads\\Wii U - The Legend of Zelda Breath of the Wild - Wolf Coyote\\Wolf\\images\\wolf_nrm.png
+map_Kd C:\\Users\\seanp\\Downloads\\Wii U - The Legend of Zelda Breath of the Wild - Wolf Coyote\\Wolf\\images\\wolf_alb.0.png
+map_Ks C:\\Users\\seanp\\Downloads\\Wii U - The Legend of Zelda Breath of the Wild - Wolf Coyote\\Wolf\\images\\wolf_spm.png
+map_d C:\\Users\\seanp\\Downloads\\Wii U - The Legend of Zelda Breath of the Wild - Wolf Coyote\\Wolf\\images\\wolf_alb.0.png

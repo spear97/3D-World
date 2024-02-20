@@ -1,0 +1,24 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Material.0002b8
+Ns 9.803921
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\seanp\\Downloads\\PC Computer - Zoo Tycoon 2 - Masai Giraffe\\13293\\adultm.png
+
+newmtl Material.011
+Ns 9.803921
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\seanp\\Downloads\\PC Computer - Zoo Tycoon 2 - Masai Giraffe\\13293\\adult.png
