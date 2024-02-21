@@ -72,15 +72,43 @@ void loadFromFile(string filename, Vector3d center, double rot, Vector3d color);
 // Clear all objects from the Environment
 void clear();
 
+// Spawn a 3d Object infront of Camera
+void spawn();
+
 /*************Environemntal Function*************/
 
+//DefaultEnv - The Environment that will render when application starts
 void DefaultEnv(Vector3d color);
 
+//How the Environment needs to render
+void Render(vector<tuple<string, float, Vector3d>> objParms);
+
+//How the First Environment function needs to render
 void Env1(Vector3d color);
 
+//How the Second Environment function needs to render
 void Env2(Vector3d color);
 
+//How the Third Environment function needs to render
 void Env3(Vector3d color);
+
+//Render Grass Patches into the Evironment
+void RenderGrassPatch();
+
+//Render Trees into the Environment
+void RenderTrees();
+
+//Tell the Application to render Environment 1
+void ActivateEnv1();
+
+//Tell the Application to render Environment 2
+void ActivateEnv2();
+
+//Tell the Application to render Environment 3
+void ActivateEnv3();
+
+//Tell the Application to render the Default Environment
+void ActivateDefault();
 
 /*************Variables for the application*************/
 

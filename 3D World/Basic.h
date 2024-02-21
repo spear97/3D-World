@@ -6,10 +6,14 @@
 #include <iostream>
 #include <iomanip>
 #include <limits>
+#include <tuple>
+
+using namespace std;
 
 // Double Randomization Functions
 double myRand();
-double RandRange(double min, double max);
+double RandRange(double min, double max); 
+tuple<double, double> getXZ(double min, double max);
 
 namespace mathtool {
 
