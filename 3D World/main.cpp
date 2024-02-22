@@ -309,6 +309,12 @@ void RenderTrees()
 	loadFromFile("models/tree4-top.obj", Vector3d(get<0>(XZ), 4.25f, get<1>(XZ)), 0, Vector3d(0.588f, 0.294f, 0.f));
 }
 
+//Spawn Object In front of Engine
+void spawn(string filename, float yOffset, Vector3d color)
+{
+	loadFromFile(filename, Vector3d(camDist*(x+lx), yOffset, camDist*(z+lz)), 0, color);
+}
+
 //Tell the Application to render Environment 1
 void ActivateEnv1()
 {
@@ -376,19 +382,19 @@ void menu(int num)
 		clear();
 		break;
 	case 2: //Spawn Grass
-		
+		spawn("models/Grass.obj", 0.25f, Vector3d(0.f, 1.f, 0.f));
 		break;
 	case 3: //Spawn Wukong
-		
+		spawn("models/Wukong.obj", 0.25f, Vector3d(0.75f, 0.75f, 0.75f));
 		break;
 	case 4: //Spawn MilitaryVehicle
-		
+		spawn("models/MilitaryVehicle.obj", 0.25f, Vector3d(0.32f, 0.35f, 0.17f));
 		break;
 	case 5: //Spawn Patrick
-		
+		spawn("models/patrick.obj", 0.25f, Vector3d(0.90f, 0.40f, 0.44f));
 		break;
 	case 6: //Spawn Sonic
-		
+		spawn("models/Sonic.obj", 0.4f, Vector3d(0.f, 0.f, 1.f));
 		break;
 	case 7: //Render Environment 1
 		ActivateEnv1();

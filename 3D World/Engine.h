@@ -73,7 +73,7 @@ void loadFromFile(string filename, Vector3d center, double rot, Vector3d color);
 void clear();
 
 // Spawn a 3d Object infront of Camera
-void spawn();
+void spawn(string filename, float yOffset, Vector3d color);
 
 /*************Environemntal Function*************/
 
@@ -117,6 +117,7 @@ vector<Polyhedron> polys;					// Collection of polygons for a given object
 float angle = 0.0f;							// Angle of rotation for the camera direction
 float lx = 0.614692f, lz = -0.788767f;		// Actual vector representing the camera's direction
 float x = -26.8996f, z = 37.175f;			// XZ position of the camera
+float camDist = 0.9f;						// How far should a 3d Object spawn from the Camera
 
 // Scene and rendering menu variables
 float minBound = -100.f, maxBound = 100.f;								// The Bounds that the Ground Exist on
