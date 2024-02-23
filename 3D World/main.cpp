@@ -228,8 +228,11 @@ void Render(vector<tuple<string, float, Vector3d>> objParams)
 
 		for (tuple<string, float, Vector3d> param : objParams)
 		{
-			tuple<double, double> XZ = getXZ(minBound, maxBound);
-			loadFromFile(get<0>(param), Vector3d(get<0>(XZ), get<1>(param), get<1>(XZ)), 0, get<2>(param));
+			for (int i=0; i < 2; i++)
+			{
+				tuple<double, double> XZ = getXZ(minBound, maxBound);
+				loadFromFile(get<0>(param), Vector3d(get<0>(XZ), get<1>(param), get<1>(XZ)), 0, get<2>(param));
+			}
 		}
 	}
 }
@@ -245,10 +248,10 @@ void Env1(Vector3d color)
 		{"models/stone2_L2-scaled.obj", 0.f, Vector3d(0.75f, 0.75f, 0.75f)},
 		{"models/Grass.obj", 0.25f, Vector3d(0.f, 1.f, 0.f)},
 		{"models/tree4.obj", 0.25f, Vector3d(0.81f, 0.52f, 0.24f)},
-		{"models/Moose_Adult_M.obj", 0.21f, Vector3d(0.54f, 0.27f, 0.07f)},
-		{"models/BearGrizzly_Adult_F.obj", 0.21f, Vector3d(0.54f, 0.27f, 0.07f)},
-		{"models/Deer.obj", 0.21f, Vector3d(0.95f, 0.64f, 0.37f)},
-		{"models/Wolf.obj", 0.21f, Vector3d(0.5f, 0.5f, 0.5f)}
+		{"models/Moose_Adult_M.obj", 1.15f, Vector3d(0.54f, 0.27f, 0.07f)},
+		{"models/BearGrizzly_Adult_F.obj", 0.75f, Vector3d(0.54f, 0.27f, 0.07f)},
+		{"models/Deer.obj", 1.5f, Vector3d(0.95f, 0.64f, 0.37f)},
+		{"models/Wolf.obj", 1.f, Vector3d(0.5f, 0.5f, 0.5f)}
 	};
 	Render(params);
 }
@@ -265,9 +268,10 @@ void Env2(Vector3d color)
 		{"models/stone1_S.obj", 0.f, Vector3d(0.75f, 0.75f, 0.75f)},
 		{"models/stone1_M.obj", 0.f, Vector3d(0.75f, 0.75f, 0.75f)},
 		{"models/stone2_L2-scaled.obj", 0.f, Vector3d(0.75f, 0.75f, 0.75f)},
-		{"models/Buffalo.obj", 0.21f, Vector3d(0.54f, 0.27f, 0.07f)},
-		{"models/Gator.obj", 0.21f, Vector3d(0.f, 1.f, 0.f)},
-		{"models/Boar.obj", 0.21f, Vector3d(0.5f, 0.5f, 0.5f)}
+		{"models/Buffalo.obj", 0.75f, Vector3d(0.54f, 0.27f, 0.07f)},
+		{"models/Gator.obj", 0.8f, Vector3d(0.f, 1.f, 0.f)},
+		{"models/Boar.obj", 0.75f, Vector3d(0.5f, 0.5f, 0.5f)},
+		{"models/MountainLion.obj", 1.f, Vector3d(1.f, 1.f, 0.f)}
 	};
 	Render(params);
 }
@@ -285,10 +289,10 @@ void Env3(Vector3d color)
 	{"models/stone1_M.obj", 0.f, Vector3d(0.75f, 0.75f, 0.75f)},
 	{"models/stone2_L2-scaled.obj", 0.f, Vector3d(0.75f, 0.75f, 0.75f)},
 	{"models/PalmTreeTrunk.obj", 0.25f, Vector3d(0.588f, 0.294f, 0.f)},
-	{"models/Camel.obj", 0.21f, Vector3d(0.96f, 0.90f, 0.54f)},
-	{"models/Coyote.obj", 0.21f, Vector3d(0.82f, 0.41f, 0.11f)},
-	{"models/Ostrich.obj", 0.21f, Vector3d(0.78f, 0.55f, 0.58f)},
-	{"models/Giraffe.obj", 0.21f, Vector3d(1.f, 1.f, 0.f)}
+	{"models/Camel.obj", 1.15f, Vector3d(0.96f, 0.90f, 0.54f)},
+	{"models/Coyote.obj", 1.15f, Vector3d(0.82f, 0.41f, 0.11f)},
+	{"models/Ostrich.obj", 1.f, Vector3d(0.78f, 0.55f, 0.58f)},
+	{"models/Giraffe.obj", 2.7f, Vector3d(1.f, 1.f, 0.f)}
 	};
 	Render(params);
 }
@@ -296,17 +300,23 @@ void Env3(Vector3d color)
 //Render Grass Patches into the Evironment
 void RenderGrassPatch()
 {
-	tuple<double, double> XZ = getXZ(minBound, maxBound);
-	loadFromFile("models/Grass.obj", Vector3d(get<0>(XZ), 0.25f, get<1>(XZ)), 0, Vector3d(0.f, 1.f, 0.f));
-	loadFromFile("models/Grass.obj", Vector3d(get<0>(XZ)+1, 0.25f, get<1>(XZ)), 0, Vector3d(0.f, 1.f, 0.f));
+	for (int i=0; i < 4; i++)
+	{
+		tuple<double, double> XZ = getXZ(minBound, maxBound);
+		loadFromFile("models/Grass.obj", Vector3d(get<0>(XZ), 0.25f, get<1>(XZ)), 0, Vector3d(0.f, 1.f, 0.f));
+		loadFromFile("models/Grass.obj", Vector3d(get<0>(XZ) + 1, 0.25f, get<1>(XZ)), 0, Vector3d(0.f, 1.f, 0.f));
+	}
 }
 
 //Render Trees into the Environment
 void RenderTrees()
 {
-	tuple<double, double> XZ = getXZ(minBound, maxBound);
-	loadFromFile("models/tree4.obj", Vector3d(get<0>(XZ), 0.25f, get<1>(XZ)), 0, Vector3d(0.588f, 0.294f, 0.f));
-	loadFromFile("models/tree4-top.obj", Vector3d(get<0>(XZ), 4.25f, get<1>(XZ)), 0, Vector3d(0.588f, 0.294f, 0.f));
+	for (int i = 0; i < 4; i++)
+	{
+		tuple<double, double> XZ = getXZ(minBound, maxBound);
+		loadFromFile("models/tree4.obj", Vector3d(get<0>(XZ), 0.25f, get<1>(XZ)), 0, Vector3d(0.588f, 0.294f, 0.f));
+		loadFromFile("models/tree4-top.obj", Vector3d(get<0>(XZ), 4.25f, get<1>(XZ)), 0, Vector3d(0.588f, 0.294f, 0.f));
+	}
 }
 
 //Spawn Object In front of Engine
@@ -385,13 +395,13 @@ void menu(int num)
 		spawn("models/Grass.obj", 0.25f, Vector3d(0.f, 1.f, 0.f));
 		break;
 	case 3: //Spawn Wukong
-		spawn("models/Wukong.obj", 0.25f, Vector3d(0.75f, 0.75f, 0.75f));
+		spawn("models/Wukong.obj", 1.15f, Vector3d(0.75f, 0.75f, 0.75f));
 		break;
 	case 4: //Spawn MilitaryVehicle
 		spawn("models/MilitaryVehicle.obj", 0.25f, Vector3d(0.32f, 0.35f, 0.17f));
 		break;
 	case 5: //Spawn Patrick
-		spawn("models/patrick.obj", 0.25f, Vector3d(0.90f, 0.40f, 0.44f));
+		spawn("models/patrick.obj", 0.75f, Vector3d(0.90f, 0.40f, 0.44f));
 		break;
 	case 6: //Spawn Sonic
 		spawn("models/Sonic.obj", 0.4f, Vector3d(0.f, 0.f, 1.f));

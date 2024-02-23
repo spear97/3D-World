@@ -1,7 +1,7 @@
 # Blender MTL File: 'None'
 # Material Count: 3
 
-newmtl Material_1
+newmtl Material_1.001
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.698040 0.698040 0.698040
@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd C:\\Users\\seanp\\Downloads\\PC Computer - Sonic Heroes - Aligator\\Aligator\\d_wania5.png
+map_Kd Aligator\\Aligator\\d_wania5.png
 
 newmtl mat1
 Ns 0.000000
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd C:\\Users\\seanp\\Downloads\\PC Computer - Sonic Heroes - Aligator\\Aligator\\d_wanib2.png
+map_Kd Aligator\\Aligator\\d_wanib2.png
 
 newmtl mat2
 Ns 0.000000
@@ -32,4 +32,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd C:\\Users\\seanp\\Downloads\\PC Computer - Sonic Heroes - Aligator\\Aligator\\d_wanic2.png
+map_Kd Aligator\\Aligator\\d_wanic2.png

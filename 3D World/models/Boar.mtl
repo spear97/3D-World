@@ -10,9 +10,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Bump C:\\Users\\seanp\\Downloads\\PC Computer - The Elder Scrolls IV Oblivion - Boar\\boar05_n.png
-map_Kd C:\\Users\\seanp\\Downloads\\PC Computer - The Elder Scrolls IV Oblivion - Boar\\boar05.png
-map_d C:\\Users\\seanp\\Downloads\\PC Computer - The Elder Scrolls IV Oblivion - Boar\\boar05.png
+map_Bump Boar\\boar05_n.png
+map_Kd Boar\\boar05.png
+map_d Boar\\boar05.png
 
 newmtl boar2.001
 Ns 0.000000
@@ -23,6 +23,6 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Bump C:\\Users\\seanp\\Downloads\\PC Computer - The Elder Scrolls IV Oblivion - Boar\\boar01backhair_n.png
-map_Kd C:\\Users\\seanp\\Downloads\\PC Computer - The Elder Scrolls IV Oblivion - Boar\\boar01backhair.png
-map_d C:\\Users\\seanp\\Downloads\\PC Computer - The Elder Scrolls IV Oblivion - Boar\\boar01backhair.png
+map_Bump Boar\\boar01backhair_n.png
+map_Kd Boar\\boar01backhair.png
+map_d Boar\\boar01backhair.png
