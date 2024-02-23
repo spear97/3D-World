@@ -1,5 +1,23 @@
 # 3D World
 
+## Description
+
+An Interactive 3D Environment project that was created during my Spring 2022 Semester at Texas Wesleyan University. A custom graphics Engine Made from Scratch Utilizing OpenGL and C++ to render different environment and spawn 3d object into the Environment. 
+
+## Table of Contents
+- Screenshots
+  - UI
+  - Forest Environment
+  - Muddy Environment
+  - Desert Environment
+- Classes
+  - Vector3d
+  - ObjLoader
+  - Polyhedron
+- Technology
+  - C++
+  - OpenGL
+
 ## Screenshots
 
 ### Menu for user selection
