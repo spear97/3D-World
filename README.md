@@ -30,3 +30,15 @@ How the application will load initially
 ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/Default-Sonic.png) 
 
 3D Sonic Object that was rendered from Sonic.obj
+
+### Forest Environment
+
+![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/ForestA.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/ForestB.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/ForestC.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/ForestD.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/ForestE.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/ForestF.png)    
+
+### Muddy Environment
+
+![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/DirtA.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/DirtB.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/DirtC.png) 
+
+### Desert Environment
+
+![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/DesertA.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/DesertB.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/DesertC.png) 
