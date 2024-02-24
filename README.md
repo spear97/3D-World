@@ -15,7 +15,7 @@ An Interactive 3D Environment project that was created during my Spring 2022 Sem
   - [ObjLoader](#ObjLoader)
   - [Polyhedron](#Polyhedron)
 - Technology
-  - [C++](#C++)
+  - [Cpp](#Cpp)
   - [OpenGL](#OpenGL)
 
 ## Screenshots
@@ -285,7 +285,7 @@ int main() {
 
 ## Technology
 
-### C++
+### Cpp
 
 #### What is C++?
 C++ is a high-level programming language that was developed as an extension of the C programming language. It was created by Bjarne Stroustrup at Bell Labs in the early 1980s, and it has become one of the most widely used languages, particularly for systems programming, game development, and other performance-intensive applications.
