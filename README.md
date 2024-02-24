@@ -6,25 +6,25 @@ An Interactive 3D Environment project that was created during my Spring 2022 Sem
 
 ## Table of Contents
 - Screenshots
-  - UI
-  - Forest Environment
-  - Muddy Environment
-  - Desert Environment
+  - [UI](#UI)
+  - [Forest Environment](#Forest)
+  - [Muddy Environment](#Muddy)
+  - [Desert Environment](#Desert)
 - Classes
-  - Vector3d
-  - ObjLoader
-  - Polyhedron
+  - [Vector3d](#Vector3d)
+  - [ObjLoader](#ObjLoader)
+  - [Polyhedron](#Polyhedron)
 - Technology
-  - C++
-  - OpenGL
+  - [C++](#C++)
+  - [OpenGL](#OpenGL)
 
 ## Screenshots
 
-### Menu for user selection
+### UI
 
 ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/UI_A.png)  ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/UI_B.png) 
 
-### Default Environment
+### Default
 
 ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/Default.png)  
 How the application will load initially
@@ -49,11 +49,11 @@ How the application will load initially
 
 3D Sonic Object that was rendered from Sonic.obj
 
-### Forest Environment
+### Forest 
 
 ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/ForestA.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/ForestB.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/ForestC.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/ForestD.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/ForestE.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/ForestF.png)    
 
-### Muddy Environment
+### Muddy 
 
 ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/DirtA.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/DirtB.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/DirtC.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/DirtD.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/DirtE.png) ![Custom Screenshot](https://github.com/spear97/3D-World/blob/main/ScreenShots/DirtF.png) 
 
